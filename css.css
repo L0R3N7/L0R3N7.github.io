@@ -1,0 +1,46 @@
+:root{
+    --darkbackground: #343434;
+    --light: #fff;
+    --neonbg: rgba(68, 12, 199, 0.863);
+    --lightneon: rgba(135,37,228,0.73);
+}
+
+
+body{
+    background: var(--darkbackground);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    color: var(--light);
+}
+
+#i{
+    
+    position: absolute;
+    top: 30vh;
+    left: 40vw;    
+
+    width: 100%;
+
+    width: 17vw;
+    height:40vh;
+
+    background: var(--neonbg);
+    color: var(--light);
+    padding: 1%;
+    border: 1px var(--lightneon) solid;
+    border-radius: 20px;
+
+    -webkit-box-shadow: 10px 8px 41px 2px var(--lightneon), 0.73);
+-moz-box-shadow: 10px 8px 41px 2px var(--lightneon);
+box-shadow: 10px 8px 41px 2px var(--lightneon);
+}
+
+h3, p{
+    opacity: 1;
+    text-shadow: 3px 3px 19px rgba(135, 37, 228, 1);
+}
+
+
+
